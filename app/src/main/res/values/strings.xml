@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">CASSA +</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">CASSA +</string>
+    <string name="nav_header_subtitle">2106200215@soy.utj.edu.mx</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_settings">Cerrar Sesión</string>
+
+    <string name="visitantes"><b>Iliana López</b>\n01-Dic-2023 - 18:30 hr\nTipo: Visita
+                        \n<b>- - - - - - - - - - - - - - - - - - - - - - - - - - - -</b>
+                        \n<b>Felipe Belmont</b>\n01-Dic-2023 - 19:00 hr\nTipo: Visita
+                        \n<b>- - - - - - - - - - - - - - - - - - - - - - - - - - - -</b>
+                        \n<b>Mercado Libre</b>\n05-Dic-2023 \nTipo: Entrega
+                        \n<b>- - - - - - - - - - - - - - - - - - - - - - - - - - - -</b>
+    </string>
+
+    <string name="comunicados"><b>Manteniemiento de casa club</b>
+        \nSe informa que los próximos lunes 4 y martes 5 de enero, la casa club tendrá un mantenimiento general, por ese motivo no podrá ser reservada en las fechas antes mencionadas
+        \n<b>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</b>
+        \n<b>Fiestas decembrinas</b>
+        \nSe acerca navidad y con ella tus invitados :D Manten tu membresía al día para que puedan dsifrutar de los servicios y amenidades
+        \n<b>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</b>
+        \n<b>Limpieza de piscina y asador</b>
+        \nEste 30 de noviembre tendremos limpieza profunda de piscina y asadores
+    </string>
+
+    <string name="memMes">
+        <b>Noviembre 2023</b> - <i>Pagado</i>
+        \n<i>Vencimineto: 05-Nov-2023</i>
+        \n\nCuota de membresía:
+        \nRecargo:
+        \nTotal:
+    </string>
+    <string name="costoMes">450$
+        \n0$
+        \n450$
+    </string>
+
+    <string name="membresia">
+        \n<b>Noviembre 2023</b> - <i>Evidencia adjunta</i>
+    </string>
+
+    <string name="incidentes"><b>Seguridad - Cámaras desconectadas</b>\nLas cámaras de monitoreo del coto Xalisco se encuentran desconectadas
+                        \n<b>- - - - - - - - - - - - - - - - - - - - - - - - - - - -</b>
+                        \n<b>Mantenimiento - Barra de acceso</b>\nLa barra de acceso reacciona hasta la segunda vez que se escanea el QR
+                        \n<b>- - - - - - - - - - - - - - - - - - - - - - - - - - - -</b>
+    </string>
+
+    <string name="reservaciones"><b>Piscina 1</b>\n 24-Dic-2023 - 16:30 hr
+                        \n<b>- - - - - - - - - - - - - - - - - - - - - - - - - - - -</b>
+                        \n<b>Casa club 1</b>\n 31-Ene-2023 - 14:00 hr
+                        \n<b>- - - - - - - - - - - - - - - - - - - - - - - - - - - -</b>
+                        \n<b>Casa club 1</b>\n 17-Dic-2024 - 12:00 hr
+                        \n<b>- - - - - - - - - - - - - - - - - - - - - - - - - - - -</b>
+    </string>
+
+    <string-array name="tipos">
+        <item>Administrativo</item>
+        <item>Limpieza</item>
+        <item>Mantenimiento</item>
+        <item>Servicios</item>
+        <item>Seguridad</item>
+        <item>Vecinal</item>
+    </string-array>
+
+    <string-array name="reserva">
+        <item>Casa club 1</item>
+        <item>Casa club 2</item>
+        <item>Piscina 1</item>
+        <item>Piscina 2</item>
+        <item>Asador 1</item>
+        <item>Asador 2</item>
+        <item>Asador 3</item>
+        <item>Asador 4</item>
+    </string-array>
+
+    <string name="get_started_text">Comunicación,\n Agilidad, Sencillez, Seguridad y Automatización\n en CASSA+</string>
+
+    <string name="default_web_client_id">762003142044-vk1pnkjodlnlh751mi8hsjgiua88lm4k.apps.googleusercontent.com</string>
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8EDFF"
+    tools:context=".ui.visita.VisitaFragment">
+
+    <TextView
+        android:id="@+id/text_visita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="315dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="text"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_visita" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="126dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etHora">
+
+        <RadioButton
+            android:id="@+id/rbVisita"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Visita" />
+
+        <RadioButton
+            android:id="@+id/abEntrega"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Entrega" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnFecha"
+        android:layout_width="53dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="4dp"
+        app:icon="@drawable/fecha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/etFecha"
+        app:layout_constraintTop_toBottomOf="@+id/etNombre" />
+
+    <Button
+        android:id="@+id/btnHora"
+        android:layout_width="54dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:text="Button"
+        app:icon="@drawable/hora"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/etHora"
+        app:layout_constraintTop_toBottomOf="@+id/btnFecha" />
+
+    <Button
+        android:id="@+id/btnQR"
+        android:layout_width="107dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="112dp"
+        android:text="Guardar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/etNombre" />
+
+    <TextView
+        android:id="@+id/tvVisitas"
+        android:layout_width="324dp"
+        android:layout_height="352dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:background="#F1F0F8"
+        android:text="@string/visitantes"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnQR" />
+
+    <EditText
+        android:id="@+id/etFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:ems="10"
+        android:hint="Fecha"
+        android:inputType="date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNombre" />
+
+    <EditText
+        android:id="@+id/etHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:ems="10"
+        android:hint="Hora"
+        android:inputType="time"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etFecha" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

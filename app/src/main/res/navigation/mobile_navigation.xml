@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.project.cassa.ui.inicio.InicioFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/nav_membresia"
+        android:name="com.project.cassa.ui.membresia.MembresiaFragment"
+        android:label="Membresía"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/nav_reservacion"
+        android:name="com.project.cassa.ui.reservacion.ReservacionFragment"
+        android:label="Reservación"
+        tools:layout="@layout/fragment_reservacion" />
+    <fragment
+        android:id="@+id/nav_visita"
+        android:name="com.project.cassa.ui.visita.VisitaFragment"
+        android:label="Visita"
+        tools:layout="@layout/fragment_visita" />
+    <fragment
+        android:id="@+id/nav_incidente"
+        android:name="com.project.cassa.ui.incidente.IncidenteFragment"
+        android:label="Incidente"
+        tools:layout="@layout/fragment_incidente" />
+    <fragment
+        android:id="@+id/nav_comunicado"
+        android:name="com.project.cassa.ui.comunicados.ComunicadosFragment"
+        android:label="Comunicados"
+        tools:layout="@layout/fragment_comunicados" />
+</navigation>

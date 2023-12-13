@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "762003142044",
+    "project_id": "cassa-ceebe",
+    "storage_bucket": "cassa-ceebe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762003142044:android:fe31155e2e140f0a30c459",
+        "android_client_info": {
+          "package_name": "com.project.cassa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762003142044-mq089deirei95uakniqmrlsiqufuhtmm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.cassa",
+            "certificate_hash": "343464a89a7bfbd1f146b5978ff136e7113ccbb4"
+          }
+        },
+        {
+          "client_id": "762003142044-vk1pnkjodlnlh751mi8hsjgiua88lm4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-zt53KwjJmdISUn4PbjT5XZT80j6CDZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762003142044-vk1pnkjodlnlh751mi8hsjgiua88lm4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
